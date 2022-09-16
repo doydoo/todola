@@ -1,0 +1,57 @@
+.Todo {
+    display: block;
+    text-align: left;
+    width: 100%;
+    justify-content: left;
+    margin: 20px auto;
+    padding: 10px 0;
+    background-color: rgb(243, 242, 242);
+    font-size: 18pt;
+    word-wrap: break-word;
+    box-shadow: 2px 5px 2px rgb(102, 136, 148);
+}
+
+.p {
+    padding: 10px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content:baseline;
+    margin-bottom: 5px;
+}
+
+.iconLines {
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+
+.iconCheck {
+    border: none;
+    box-sizing: content-box;
+    border-radius: 2px;
+    margin-left: auto;
+    margin-right: 10px;
+    background-color: inherit;
+}
+
+.iconCheck:hover {
+    background-color: hwb(195 50% 34%);
+    cursor: pointer;
+}
+
+.iconDelete {
+    border: none;
+    box-sizing:content-box;
+    border-radius: 2px;
+    margin-right: 10px;
+    background-color: inherit;
+}
+
+.iconDelete:hover {
+    background-color: hwb(195 50% 34%);
+    cursor: pointer;
+}
+
+
